@@ -28,6 +28,6 @@ export class MainView extends AbstractView {
     main.innerHTML = `Number of books: ${this.appState.favorites.length}`;
     this.app.innerHTML = "";
     this.app.append(main);
-    // this.appState.favorites.push("d");
+    this.appState.favorites.push("d");
   }
 }
